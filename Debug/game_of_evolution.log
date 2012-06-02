@@ -1,0 +1,16 @@
+﻿Build started 5/29/2012 9:23:40 PM.
+     1>Project "C:\Users\jonny\documents\visual studio 2010\Projects\game_of_evolution\game_of_evolution\game_of_evolution.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\game_of_evolution.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\game_of_evolution.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt engine.cpp
+         engine.cpp
+     1>c:\users\jonny\documents\visual studio 2010\projects\game_of_evolution\game_of_evolution\engine.cpp(10): warning C4627: '#include "engine.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\jonny\documents\visual studio 2010\projects\game_of_evolution\game_of_evolution\engine.cpp(67): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+     1>Done Building Project "C:\Users\jonny\documents\visual studio 2010\Projects\game_of_evolution\game_of_evolution\game_of_evolution.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
